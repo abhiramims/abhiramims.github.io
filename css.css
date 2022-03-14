@@ -1,0 +1,108 @@
+body{
+min-height: 100vh;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+background-image: url(bb.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#heading p{
+	
+
+	margin: 50px 7px;
+	border: 50px 45px;
+	padding: 0px;
+	border-color: blue;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 300%;
+
+}
+
+
+
+#help{
+	padding: 0px 20px;
+	text-align: center;
+	font-size: 120%;
+	color: white;
+
+}
+
+#descri{
+	color: white;
+	margin: 0px 10px;
+	padding: 75px 50px;
+	border: 32px 40px;
+	font-family: vardana;
+	font-size: 110%;
+	word-spacing: 3px;
+	line-height: 25px;
+	font-weight: 100%;
+}
+.box{
+	
+	text-align: center;
+	width: 300px;
+	padding: 15px;
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0.5;
+	background-color: ghostwhite;
+	opacity: .8;
+	border-radius: 15px;
+
+}
+.box h1 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid black;
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	font-weight: 70%;
+	border-radius: 24px;
+	transition: 0.25px;
+
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+width: 270px;
+border-color: yellow;
+}
+
+.box input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid black;
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	color: black;
+	font-weight: 70%;
+	border-radius: 24px;
+	transition: 0.25px;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background-color: yellow;
+}
